@@ -10,7 +10,7 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/sbtrobot/mega.git
-cd STARBOT
+cd mega
 chmod +x STARBOT.sh
 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
 ./STARBOT.sh install
