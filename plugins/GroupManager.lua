@@ -1,4 +1,4 @@
-﻿--Begin GroupManager.lua By @sbt_RoBoT
+﻿--Begin GroupManager.lua By @MahDiRoO
 local function modadd(msg)
 local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
@@ -3546,8 +3546,7 @@ end
 
 if matches[1] == "راهنما" and is_mod(msg) then
 text = [[
-🔖*Star Bot Team*
-
+🔖*StarBotTeam*
 ⚡️*برای دیدن دستورات مورد نظر خود ، مورد دلخواه را ارسال کنید*
 
 💠_دستورات فارسی :_
@@ -3580,7 +3579,7 @@ end
 
 if matches[1] == "help" and is_mod(msg) or matches[1] == "Help" and is_mod(msg)then
 text = [[
-🔖*Star Bot Team*
+🔖*StarBotTeam*
 
 ⚡️*тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 
@@ -3616,7 +3615,7 @@ end
 
 if matches[1] == "sudohelp" and is_mod(msg) or  matches[1] == "Sudohelp" and is_mod(msg) or  matches[1] == "راهنمای صاحب" and is_mod(msg) then
 text = [[
-⚜*Star Bot Team*
+⚜*StarBotTeam*
 
 *Visudo* `[username|id|reply]`
 🔹_اضافه کردن سودو_
