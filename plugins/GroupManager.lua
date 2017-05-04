@@ -3542,11 +3542,12 @@ redis:set(hash, true)
 return "*زبان گروه تنظیم شد به : فارسی*"
 end
 end
-
-
+		
+		
 if matches[1] == "راهنما" and is_mod(msg) then
 text = [[
 🔖*StarBotTeam*
+			
 ⚡️*برای دیدن دستورات مورد نظر خود ، مورد دلخواه را ارسال کنید*
 
 💠_دستورات فارسی :_
